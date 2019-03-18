@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/bid_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Você esta no leilão de: "
+            android:layout_gravity="center_horizontal"/>
+    <EditText
+            android:id="@+id/bid_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor do bid"
+            android:inputType="numberDecimal"/>
+    <Button
+            android:id="@+id/bid_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lance"/>
+
+</LinearLayout>
